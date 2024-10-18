@@ -1,0 +1,12 @@
+insert into course (id, name, author)
+values(1, 'Javascript', 'Vivek')
+
+
+delete from course where id=1
+
+select * from course
+
+
+----------------
+
+JPA is API or Interface to talk with Database but Hibernate is implementation of that interface
